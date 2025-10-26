@@ -3,4 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.12 (Lab1_gn)" />
   </component>
+  <component name="ExtraIDETweaksSettingsProject">
+    <option name="enableOpenEditorsShowRecentFiles" value="false" />
+  </component>
 </project>

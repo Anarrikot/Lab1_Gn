@@ -17,21 +17,21 @@
 Пример логов обучения (NumPy):
 
 ```
-ep 1 loss 5.018
-ep 5 loss 0.167
-ep 10 loss 0.141
-ep 20 loss 0.083
-ep 30 loss 0.074
+[NumPy] ep 1 loss 5.276225
+[NumPy] ep 5 loss 0.160065
+[NumPy] ep 10 loss 0.147129
+[NumPy] ep 15 loss 0.131808
+[NumPy] ep 20 loss 0.105834
+[NumPy] ep 25 loss 0.098092
+[NumPy] ep 30 loss 0.079356
 ```
 
 В результате:
-- **NumPy** — базовый уровень.
-- **PyTorch / TensorFlow** — более быстрая сходимость и лучшая точность.
+- **NumPy** — более быстрая сходимость и лучшая точность.
 
 ### Графики
 После обучения в папке `results/` сохраняются:
-- `loss_curve.png` — изменение функции потерь;
-- `accuracy_curve.png` — изменение точности (по MSE);
+- `losses.png` — изменение функции потерь;
 - `report.json` — численные результаты.
 
 ## 4. Выводы
@@ -40,6 +40,4 @@ ep 30 loss 0.074
 3. Torch и TensorFlow обеспечивают более быстрое обучение, чем реализация на NumPy.
 
 ## 5. Использованные источники
-1. Tan, M., & Le, Q. V. (2019). *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks*.
-2. Kingma, D. P., & Ba, J. (2014). *Adam: A Method for Stochastic Optimization*.
-3. TensorFlow и PyTorch официальная документация.
+1. TensorFlow и PyTorch официальная документация.
